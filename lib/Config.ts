@@ -266,7 +266,7 @@ export class Config implements IConfig {
      */
     public mixinLimits: MixinLimits = new MixinLimits([
         /* Height: 440,000, minMixin: 0, maxMixin: 100, defaultMixin: 3 */
-        new MixinLimit(7000000, 0, 100, 3),
+        new MixinLimit(227000, 0, 100, 4),
 
         /* At height of 620000, static mixin of 7 */
         new MixinLimit(23000000, 7),
